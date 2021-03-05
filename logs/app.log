@@ -1,0 +1,35 @@
+01:46:56.052 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+01:46:56.078 [restartedMain] INFO  com.cos.blog.BlogApplication - Starting BlogApplication using Java 1.8.0_271 on DESKTOP-45O61E0 with PID 2240 (C:\Users\audgn\Downloads\blog\build\classes\java\main started by audgn in C:\Users\audgn\Downloads\blog)
+01:46:56.079 [restartedMain] INFO  com.cos.blog.BlogApplication - No active profile set, falling back to default profiles: default
+01:46:56.245 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+01:46:56.245 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+01:46:58.456 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+01:46:58.594 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123 ms. Found 3 JPA repository interfaces.
+01:46:59.276 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@30908ba9' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+01:46:59.289 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+01:47:00.196 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+01:47:00.211 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+01:47:00.212 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01:47:00.213 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+01:47:01.067 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01:47:01.085 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:47:01.089 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4842 ms
+01:47:01.658 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:47:01.793 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+01:47:02.084 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+01:47:02.267 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:47:03.607 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:47:03.642 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+01:47:05.081 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:47:05.096 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01:47:05.187 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+01:47:06.326 [restartedMain] INFO  com.cos.blog.aop.LoggingAspect - start - com.cos.blog.configuration.SecurityConfig / encoder
+01:47:06.347 [restartedMain] INFO  com.cos.blog.aop.LoggingAspect - finished - com.cos.blog.configuration.SecurityConfig / encoder
+01:47:06.485 [restartedMain] INFO  com.cos.blog.aop.LoggingAspect - start - com.cos.blog.configuration.SecurityConfig / authenticationManagerBean
+01:47:06.486 [restartedMain] INFO  com.cos.blog.aop.LoggingAspect - finished - com.cos.blog.configuration.SecurityConfig / authenticationManagerBean
+01:47:06.785 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b556326, org.springframework.security.web.context.SecurityContextPersistenceFilter@16759893, org.springframework.security.web.header.HeaderWriterFilter@2fbe66cb, org.springframework.security.web.authentication.logout.LogoutFilter@33bf10ad, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@661e8195, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15694bcb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17993a42, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4295678f, org.springframework.security.web.session.SessionManagementFilter@399b2824, org.springframework.security.web.access.ExceptionTranslationFilter@37356f0e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@496946c2]
+01:47:07.102 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+01:47:07.279 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+01:47:07.638 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+01:47:07.675 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+01:47:07.687 [restartedMain] INFO  com.cos.blog.BlogApplication - Started BlogApplication in 13.221 seconds (JVM running for 17.115)
